@@ -1,0 +1,48 @@
+
+
+h1{
+    background-color: blue;
+    width: 250px;
+    box-decoration-break: clone;
+}
+
+h1:hover{
+    color: aquamarine;
+    background-color: rgb(226, 43, 43);
+    cursor: pointer;
+}   
+
+p::first-line{
+    color: red;
+}
+
+
+
+span{
+    background-color: aqua;
+    color: red;
+    height: 200px;
+    width: 250px;
+    border-style: dashed;
+}
+
+span:first-child{
+    color: rgb(26, 23, 20);
+    background-color: beige;
+}
+
+span::after{
+    content: "Marce";
+    color: green;
+}
+
+#botones{
+    color: red;
+    height: 20px;
+    width: 200px;
+}
+
+#botones:last-child{
+    background-color: black;
+    color: rgb(238, 230, 230);
+}
