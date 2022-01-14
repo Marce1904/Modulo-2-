@@ -1,23 +1,42 @@
 
 #contenedor{
-    position: relative;
-    border: 1px solid black;
+    
+    border: 1.5px solid black;
     background-color: beige;
-    width: 550px;
-    height: 150px;
     margin: 0 auto;
-    top: 0px;
-    display: inline-flex;
+    display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        
+
 
 }
 
 #caja1{
-    position;
-    top: 150px;
-    right: 0px;
     color: rgb(0, 0, 0);
     background-color: red;
     width: 150px;
     height: 150px;
     margin: 0px;
+    margin-right: 33%;
+    align-items: center;
+    
 }
+#caja2{
+    color: rgb(0, 0, 0);
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    margin-left: 0%;
+    margin-right: 33%;
+}
+
+#caja3{
+    color: rgb(0, 0, 0);
+    background-color: green;
+    width: 150px;
+    height: 150px;
+   
+   
+}
+
