@@ -6,14 +6,14 @@ body {
 }
 .contenedor {
 	background: #8FA68E;
-	width:100%;
+	width:70%;
 
 
 }
 nav {
 	background: #FC6;
 	float:none;
-	width:100%;
+	width:50%;
 }
 nav ul {
 	margin:0;
