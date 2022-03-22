@@ -1,33 +1,30 @@
 import React from "react";
-const HomePage =  (propos) => {
+import "../styles/components/pages/HomePage.css"
+
+const HomePage =  (props) => {
    return(
-       <main className="holder">
-           <div className="HomePage">
-               <img src="images/home/img01.jpg" alt="avion"/>
-            </div>
-            <div className="columnas">
-                <div className="bienvenidosleft">
-                    <h2>Bienvenidos</h2>
-                    <p>Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.
+    <main class="Cuerpo7">
+    <h1>NUESTRO TRABAJO</h1>
+    <div class="box1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum minus in velit deleniti neque aliquam aliquid, nesciunt provident consectetur sunt omnis distinctio nobis placeat modi quasi esse molestiae illo perferendis?
+        Possimus odit placeat provident voluptatibus perferendis eius sunt porro eaque, pariatur molestiae laudantium tenetur labore iure ducimus atque architecto necessitatibus enim dolores quos libero! Saepe sunt magnam ullam impedit voluptatem?
+        Vero, quasi sit molestias libero tempora doloribus accusamus! Tempore eos, quibusdam eveniet tenetur laborum ullam, sequi dicta molestias saepe ducimus eligendi nemo asperiores enim veniam! Veritatis aliquam similique sequi facere.
+        Ea nulla nesciunt, maiores commodi facere saepe. Perspiciatis omnis eius at. Eum minus alias libero, molestias ratione odit accusamus iste quia, blanditiis dolore quam itaque pariatur esse, magni totam asperiores.
+    </div>
 
-                        Aunque no posee actualmente fuentes para justificar sus hipótesis, el profesor de filología clásica Richard McClintock asegura que su uso se remonta a los impresores de comienzos del siglo xvi.1​ Su uso en algunos editores de texto muy conocidos en la actualidad ha dado al texto lorem ipsum nueva popularidad.
+    
 
-                        El texto en sí no tiene sentido, aunque no es aleatorio, sino que deriva de un texto de Cicerón en lengua latina, a cuyas palabras se les han eliminado sílabas o letras. El significado del mismo no tiene importancia, ya que solo es una demostración o prueba. El texto procede de la obra De finibus bonorum et malorum (Sobre los límites del bien y del mal) que comienza con:
-                        
-                    </p>               
-                    
-                </div>
-                <div className="testimonio right">
-                    <h2>Testimonios</h2>
-                    <div className="testimonio">
-                        <span className="cita">Simplemente exelente</span>
-                        <span className="autor">Juan Perez</span>
-                    </div>
-                </div>
+    <div class="Marce2">
+        <img class="imagen2" src="https://c8.alamy.com/compes/2fkh815/londres-reino-unido-01-de-mayo-de-2021-la-policia-se-encuentra-en-frente-de-millbank-tower-las-oficinas-de-los-partidos-laboristas-y-conservadores-durante-la-protesta-kill-the-bill-police-en-las-protestas-contra-la-policia-el-crimen-sentencia-y-ley-judicial-que-otorgaria-a-la-policia-una-serie-de-nuevos-poderes-discrecionales-para-cerrar-protestas-foto-de-dave-rushen-sopa-images-sipa-usa-2fkh815.jpg" alt=""/>
+        <div class="Marce3">
+            <h1>Casos de éxito</h1>   
+             Cliente: Policía Metropolitana de Londres
+             Para mejorar el acceso público a la Policía Metropolitana, ayudamos a construir un sistema en línea para reducir significativamente los tiempos de respuesta.
+        </div>
+    </div>
 
-            </div>
 
-       </main>
+</main>
 
    );
 }

@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import "./App.css";
 
 
 import ContactoPage from './pages/contactoPage';
@@ -15,14 +16,14 @@ function App() {
   return (
     <Router>
       <Header/>
-      <Nav/>
-      <Switch>
-        <Route path= "/" exact component={HomePage}/>
-        <Route path= "/nosotros" exact component={NosotrosPage}/>
-        <Route path= "/novedades" exact component={NovedadesPage}/>
-        <Route path= "/contacto" exact component={ContactoPage}/>
+        <Nav/>
+        <Switch>
+          <Route path= "/" exact component={HomePage}/>
+          <Route path= "/nosotros" exact component={NosotrosPage}/>
+          <Route path= "/novedades" exact component={NovedadesPage}/>
+          <Route path= "/contacto" exact component={ContactoPage}/>
 
-      </Switch>
+        </Switch>
       <Footer/>
     </Router>
   );
