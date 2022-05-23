@@ -1,0 +1,29 @@
+
+
+.holder2{
+    font-size: small;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+        
+}
+
+.img{
+    width: 50%;
+    height: 350px;
+}
+
+.holder1{
+
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #faecd6;
+    color: #714242;
+    font-family: 'Open Sans', sans-serif;
+    border: 0.5px solid rgb(196, 196, 196);
+    box-shadow: 0 0 5px black;
+    
+}
+  
