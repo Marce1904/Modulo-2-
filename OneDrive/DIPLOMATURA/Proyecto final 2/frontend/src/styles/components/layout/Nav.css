@@ -1,0 +1,32 @@
+nav {
+    background-color:  #faecd6;
+    margin-bottom: 2em;
+}
+nav div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav div ul li{
+    display: inline-block;
+    width: 16.3%;
+
+}
+
+nav ul li a{
+    color: #714242;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.2em 0.4em;
+    display: block;
+    position: relative;
+}
+
+nav div ul a :hover {
+    background: hsl(37, 77%, 91%);
+}
+
+nav div ul a.activo {
+    background: #ffffff;
+}
